@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+
+@media (max-width: 575.98px) {
+    body{
+        
+    }
+
+
+    .contenedor_general{
+        background-image: url(../images/rick1.jpg); 
+        background-position:center;
+        background-size: cover;
+        position: relative;
+        height: 100vmax;  
+        z-index: 20;
+        
+        
+    }
+
+    .contenedor_general::before{
+        content:"";
+        background-color: rgba(57, 96, 151, 0.8);
+        position:absolute;
+        
+        z-index: -5;
+        height: 100vmax;
+        width: 100%;
+    }
+
+    .secundario div div img{
+        width: 220px !important; 
+        z-index: 50;
+        background-color: aliceblue;
+    }
+
+   
+
+
+
+    .redes{
+        
+        height: 10vh;
+        
+    }
+
+    .redes div a img{
+        width: 42px !important;
+        
+    }
+
+
+   .login-acsa div{ 
+    
+       
+   }
+
+}
