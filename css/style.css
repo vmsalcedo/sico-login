@@ -16,6 +16,7 @@
         background-image: url(../images/01-Proyectos-Electricos-MyB-Tension.jpg);   
         /* background: linear-gradient(to left, #159957, #155799); */
         background-position:center;
+        background-attachment: fixed;
         background-size: cover;
         position: relative;
         height: 100vmax;  
