@@ -13,8 +13,8 @@
 
 
     .contenedor_general{
-        background-image: url(../images/rick1.jpg);  
-        
+        /* background-image: url(../images/rick1.jpg);   */
+        background: linear-gradient(to left, #159957, #155799);
         background-position:center;
         background-size: cover;
         position: relative;
@@ -26,8 +26,8 @@
 
     .contenedor_general::before{
         content:"";
-        /* background-color: rgba(57, 96, 151, 0.8); */
-        background: linear-gradient(to left, #159957, #155799);
+        background-color: rgba(57, 96, 151, 0.8); 
+        
         position:absolute;
         
         z-index: -5;
