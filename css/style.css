@@ -13,8 +13,8 @@
 
 
     .contenedor_general{
-        /* background-image: url(../images/rick1.jpg);   */
-        background: linear-gradient(to left, #159957, #155799);
+        background-image: url(../images/01-Proyectos-Electricos-MyB-Tension.jpg);   
+        /* background: linear-gradient(to left, #159957, #155799); */
         background-position:center;
         background-size: cover;
         position: relative;
@@ -34,11 +34,11 @@
         height: 100vmax;
         width: 100%;
     }
-
+    /* Imagen de Logo */
     .secundario div div img{
-        width: 220px !important; 
+        width: 120px !important; 
         z-index: 50;
-        background-color: aliceblue;
+        background-color: #0d6efd;
     }
 
    
@@ -47,12 +47,12 @@
 
     .redes{
         
-        height: 10vh;
+        height: 20vh;
         
     }
-
+    /* iconos de redes  */
     .redes div a img{
-        width: 42px !important;
+        width: 32px !important;
         
     }
 
